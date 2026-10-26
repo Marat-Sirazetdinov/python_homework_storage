@@ -34,3 +34,4 @@ def main():
     print(f"Число букв: {counter}")
 if __name__ == "__main__":
     main()
+

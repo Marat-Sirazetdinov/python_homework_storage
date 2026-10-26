@@ -3,6 +3,11 @@ MIN_VOWELS = 3
 
 
 def triple_shafl(**kwargs):
+    """
+    Перебирает строки и находит те в которых больше 3 гласных букв
+    :param kwargs: Произвольные аргументы - строки
+    :return: Отфильтрованный словарь
+    """
     result = {}
 
     for key, value in kwargs.items():

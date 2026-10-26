@@ -1,10 +1,20 @@
 def fact_rec(n):
+    """
+    Вычисляет факториал с помощью рекурсии
+    :param n: Целое неотрицательное число
+    :return: Факториал числа n
+    """
     if n == 0 or n == 1:
         return 1
     return n * fact_rec(n - 1)
 
 
 def fact_iter(n):
+    """
+    Вычисляет факториал числа с помощью итеративного метода
+    :param n: Целое неотрицательное число
+    :return: Факториал числа n
+    """
     result = 1
     for i in range(1, n + 1):
         result = result * i
@@ -23,7 +33,7 @@ if __name__ == "__main__":
             else:
                 print("Число должно быть неотрицательным!")
         except ValueError:
-            print("Для кого написанно? ЦЕЛОЕ ЧИСЛО")
+            print("Для кого написано? ЦЕЛОЕ ЧИСЛО")
 
     result_rec = fact_rec(n)
     result_iter = fact_iter(n)

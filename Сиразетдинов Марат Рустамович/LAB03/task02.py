@@ -1,4 +1,7 @@
 def main():
+    """
+    Создает список со словорями
+    """
     products = [
         {"name": "Laptop", "price": 89990, "discount": 10},
         {"name": "Mouse", "price": 2490, "discount": 15},
@@ -25,3 +28,4 @@ def main():
         )
 if __name__ == "__main__":
     main()
+

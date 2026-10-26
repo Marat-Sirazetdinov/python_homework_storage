@@ -1,4 +1,10 @@
 def sort_numbers(numbers, reverse=False):
+    """
+    Сортирует список чисел по возрастанию или убыванию
+    :param numbers: Список чисел для сортировки
+    :param reverse: Отсортированный список
+    :return:
+    """
     sorted_list = list(numbers)
     sorted_list.sort(reverse=reverse)
     return sorted_list
